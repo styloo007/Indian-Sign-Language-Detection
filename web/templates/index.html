@@ -1,0 +1,29 @@
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Sign Language Detection</title>
+    
+    
+</head>
+<body>
+    <center>
+    <div class="content">
+    <form action="predict" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <h1>Indian Sign Language Detection</h1>
+      <label for="image_input">Upload Your Image Here</label>
+      <br><br>
+      <input accept="image/*" id="image_input" name="image_input" type="file">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+
+    
+
+  </div>
+  </center>
+</body>
+</html>

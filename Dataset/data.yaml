@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 35
+names: ['Alphabet-A', 'Alphabet-B', 'Alphabet-C', 'Alphabet-D', 'Alphabet-E', 'Alphabet-F', 'Alphabet-H', 'Alphabet-I', 'Alphabet-J', 'Alphabet-K', 'Alphabet-L', 'Alphabet-M', 'Alphabet-N', 'Alphabet-O', 'Alphabet-P', 'Alphabet-Q', 'Alphabet-R', 'Alphabet-S', 'Alphabet-T', 'Alphabet-U', 'Alphabet-V', 'Alphabet-W', 'Alphabet-X', 'Alphabet-Y', 'Alphabet-Z', 'Alphabet-g', 'Numeric-1', 'Numeric-2', 'Numeric-3', 'Numeric-4', 'Numeric-5', 'Numeric-6', 'Numeric-7', 'Numeric-8', 'Numeric-9']
+
+roboflow:
+  workspace: isr1
+  project: indian-sign-language-3e2qh
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/isr1/indian-sign-language-3e2qh/dataset/4
